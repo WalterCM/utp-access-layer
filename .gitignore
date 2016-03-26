@@ -1,0 +1,6 @@
+bin/
+build/
+include/
+lib/
+selenium/
+pip-selfcheck.json

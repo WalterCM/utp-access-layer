@@ -1,0 +1,30 @@
+services = ['portal', 'nimbus']
+urls = {
+    'portal_login': 'https://intranet.utp.edu.pe/login.aspx',
+    'nimbus_login': 'https://campusvirtualutp.edu.pe/index.php',
+    'nimbus_index': 'https://campusvirtualutp.edu.pe/index.php',
+    'nimbus_profile': 'https://campusvirtualutp.edu.pe/main/auth/profile.php',
+    'nimbus_classes': 'https://campusvirtualutp.edu.pe/user_portal.php',
+}
+xpaths = {
+    'portal_user': '//*[@id="436622960605823"]',
+    'portal_password': '//*[@id="499217175816313"]',
+    'portal_captcha_img': '//*[@id="320880824665751"]',
+    'portal_captcha': '//*[@id="110876687831903"]',
+    'portal_submit': '//*[@id="179948057330597"]',
+    'nimbus_user': '//*[@id="formLogin"]/fieldset/div[1]/div/input',
+    'nimbus_password': '//*[@id="formLogin"]/fieldset/div[2]/div/input',
+    'nimbus_img': '//*[@id="QF_CAPTCHA_captcha_question"]',
+    'nimbus_captcha': '//*[@id="formLogin"]/fieldset/div[5]/div/input',
+    'nimbus_submit': '//*[@id="formLogin"]/fieldset/div[6]/div/button',
+    'user_firstname': '//*[@id="profile"]/fieldset/div[2]/div/span/input',
+    'user_lastname': '//*[@id="profile"]/fieldset/div[1]/div/span/input',
+    'user_img': '//*[@id="image-message-container"]/img',
+    'class_ids': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/h3',
+    'course_names': '//*[@id="main_content"]/div[*]/div[2]/div/div[1]/div/div[2]/h3/a[1]',
+    'course_ids': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/small/b',
+    'class_turns': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/small/b',
+    'course_terms': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/small/b',
+    'class_sections': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/small/b',
+    'class_modes': '//*[@id="main_content"]/div[*]/div[1]/div/div[1]/div/div[2]/small/b',
+}
